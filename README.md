@@ -26,6 +26,7 @@ $data = array(
 
 $table = new Table($data);
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
