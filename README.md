@@ -1,5 +1,14 @@
-USE EXAMPLE
+array to table class 
+===========
 
+## Description ##
+
+This is adress book whish allow add/edd/del contacts in pro book
+The probook has only admin part
+
+
+## Use example ##
+```
 <?php
 require_once('table.php')
 $data = array(
@@ -37,3 +46,4 @@ $table = new Table($data);
 
 </body>
 </html>
+```
