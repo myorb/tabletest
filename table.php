@@ -1,6 +1,29 @@
 <?php
+// EXAMPLE OF USE
+// $data = array(
+//    array(
+//       'Name' => 'Trixie',
+//       'Color' => 'Green',
+//       'Element' => 'Earth',
+//       'Likes' => 'Flowers'
+//    ),
+//    array(
+//       'Element' => 'Water',
+//       'Likes' => 'Dancing',
+//       'Name' => 'Blum',
+//       'Color' => 'Pink'
+//    ),
+// );
+
+// $table = new Table($data);
+// $table->render();
+
+?>
+
+<?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+
 /**
  * This is the class for drow table from array.
  *
@@ -136,34 +159,5 @@ class Table
         $this->printLine();
     }
 }
-
-
-/////////////////////////////////////////// USE EXAMPLE /////////////////////////////////////
-?>
-<?php
-
-// $data = array(
-//    array(
-//       'Name' => 'Trixie',
-//       'Color' => 'Green',
-//       'Element' => 'Earth',
-//       'Likes' => 'Flowers'
-//    ),
-//    array(
-//       'Name' => 'Tinkerbell',
-//       'Element' => 'Air',
-//       'Likes' => 'Singning',
-//       'Color' => 'Blue'
-//    ),
-//    array(
-//       'Element' => 'Water',
-//       'Likes' => 'Dancing',
-//       'Name' => 'Blum',
-//       'Color' => 'Pink'
-//    ),
-// );
-
-// $table = new Table($data);
-// $table->render();
 
 ?>
