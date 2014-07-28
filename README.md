@@ -2,6 +2,7 @@
 /////////////////////////////////////////// USE EXAMPLE /////////////////////////////////////
 ?>
 <?php
+require_once('table.php')
 $data = array(
    array(
        'Name' => 'Trixie',
